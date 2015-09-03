@@ -1,0 +1,22 @@
+/*
+ *  The Ultimate Workout Clock for iOS
+ *
+ *  Created by Michael Okner. Copyright 2011-2015.
+ *
+ *  Distributed under the BSD "modified" 3-clause license.
+ */
+
+//
+// Prefix header for all source files of the 'Ultimate Workout Clock' target in the 'Ultimate Workout Clock' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+#endif

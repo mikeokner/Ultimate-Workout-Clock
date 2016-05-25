@@ -1,0 +1,12 @@
+stages:
+    - build
+
+build_project:
+    stage: build
+    script:
+        - xcodebuild clean -workspace 'Ultimate Workout Clock.xcworkspace' -scheme 'Ultimate Workout Clock'
+        - xcodebuild test -workspace 'Ultimate Workout Clock.xcworkspace' -scheme 'Ultimate Workout Clock' -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2'
+    tags:
+        - ios_9-2
+        - xcode_7-2
+        - osx_10-11

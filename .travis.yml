@@ -1,6 +1,0 @@
-sudo: false
-language: objective-c
-osx_image: xcode6.4
-xcode_sdk: iphonesimulator8.4
-xcode_workspace: "Ultimate Workout Clock.xcworkspace"
-xcode_scheme: "Ultimate Workout Clock"
